@@ -1,0 +1,14 @@
+{
+    "name": "Deer Valley CSF",
+    "short_name": "Deer Valley CSF",
+    "icons": [
+        {
+            "src": "/images/logo/dvhslogo.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#0084AA",
+    "background_color": "#0084AA",
+    "display": "standalone"
+}
