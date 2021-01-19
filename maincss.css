@@ -253,5 +253,28 @@ img {
 iframe {
   padding: 0 0 2rem; }
 
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+      'header header header header header header header header' 
+      'left middle middle middle middle middle middle right' 
+      'footer footer footer footer footer footer footer footer';
+       /*grid-column-gap: 10px; if you want gap between the columns*/
+  } 
+
+  .left{
+    width: 60px;
+    height: 300px;
+    
+  }
+  
+  .middle{
+    height: 300px;
+  }
+  .right {
+    box-align: right;
+    width:60px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
 
 /*# sourceMappingURL=main.css.map */
